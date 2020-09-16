@@ -41,8 +41,8 @@ if __name__ == '__main__':
         if (temp_fija[i] == 1):
             temperatura[i] = valor_temp_fija[i]
         else:
-            temperatura[i] = (H_k / 2.0) * coorx[i] * (L - coorx[i]) - ((T0 - T_L) / L) * \
-                             coorx[i] + T0
+                temperatura[i] = (H_k / 2.0) * coorx[i] * (L - coorx[i]) - ((T0 - T_L) / L) * \
+                                 coorx[i] + T0
 
     for i in range(nelementos):
         print('Elemento {}: {}'.format(i, conectividad[i]))
